@@ -1,0 +1,31 @@
+.filters__container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.category__container,
+.rating__container,
+.sort__container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.category__container input,
+.rating__container input,
+.sort__container input {
+  margin-right: 0.5rem;
+}
+
+.filters__heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.filters__heading p {
+  cursor: pointer;
+  text-decoration: underline;
+}

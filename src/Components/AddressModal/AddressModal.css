@@ -1,0 +1,100 @@
+.address__modal__container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+  height: 100%;
+  width: 100%;
+  color: var(--secondary-color);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal__address__container {
+  position: absolute;
+  top: 4rem;
+  width: 80%;
+  max-width: 500px;
+  border-radius: 0.4rem;
+  background-color: white;
+}
+
+.modal__close__icon__container {
+  cursor: pointer;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  padding: 0.3rem 0.3rem 0rem 0.3rem;
+  border-radius: 0.4rem;
+  background-color: var(--secondary-color);
+}
+
+.modal__close__icon__container:hover {
+  box-shadow: 0px 0px 5px lightgray;
+}
+
+.address__form__heading {
+  font-weight: bold;
+  padding: 1rem 2rem;
+  color: white;
+  background-color: var(--primary-color);
+  border-radius: 0.4rem 0.4rem 0rem 0rem;
+}
+
+.address__form__container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1rem 2rem;
+}
+
+.address__form__container fieldset {
+  border: 2px solid var(--primary-color);
+  border-radius: 1rem;
+  overflow: hidden;
+  padding: 0rem 0.5rem 0.5rem 0.5rem;
+}
+
+.address__form__container legend {
+  margin-left: 1rem;
+  padding: 0rem 0.4rem;
+  color: var(--primary-color);
+  font-size: small;
+}
+
+.address__form__container input {
+  width: 100%;
+  padding: 0rem 1.5rem;
+  border: none;
+  outline: none;
+}
+
+.address__btn__container {
+  display: flex;
+  gap: 1rem;
+  width: max-content;
+  align-self: flex-end;
+}
+
+.add__address__btn {
+  cursor: pointer;
+  padding: 0.4rem 2rem;
+  margin-top: 2rem;
+  border: none;
+  color: white;
+  background-color: var(--primary-color);
+  border-radius: 0.4rem;
+}
+
+.dummy__address__btn {
+  cursor: pointer;
+  padding: 0.4rem 2rem;
+  margin-top: 2rem;
+  border: none;
+  color: white;
+  background-color: var(--primary-color);
+  border-radius: 0.4rem;
+}

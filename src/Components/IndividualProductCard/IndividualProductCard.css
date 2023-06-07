@@ -1,0 +1,138 @@
+.individual__product__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+  padding: 2rem 0rem;
+}
+
+.product__details__container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 1rem;
+  height: max-content;
+  max-width: 70vw;
+  box-shadow: 0px 0px 10px gray;
+  border-radius: 0.4rem;
+}
+
+.image__section {
+  width: 100%;
+}
+
+.details__section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+#image__container {
+  position: relative;
+  cursor: pointer;
+  background-color: white;
+  max-height: max-content;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  box-shadow: 0px 0px 10px gray;
+}
+
+#image__container img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+#image__container img:hover {
+  transform: scale(1.1, 1.1);
+  transition: 0.1s ease-in;
+}
+
+#wishlist__icon {
+  cursor: pointer;
+  position: absolute;
+  right: 6px;
+  top: 6px;
+  background-color: white;
+  width: max-content;
+  padding: 0.5rem 0.5rem 0rem 0.5rem;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px lightgray;
+}
+
+#wishlist__icon:hover {
+  background-color: #e2e2e2;
+}
+
+#discount__badge {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #404040;
+  width: max-content;
+  padding: 0.2rem 1.3rem;
+  background-color: #fbbf24;
+  border-radius: 0.5rem 0rem;
+}
+
+.details__section__heading {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+#add__to__cart__btn {
+  width: max-content;
+  cursor: pointer;
+  margin: 0.5rem 0rem 0rem 0rem;
+  color: white;
+  font-weight: bold;
+  background-color: var(--primary-color);
+  border: none;
+  padding: 0.5rem 2rem;
+  border-radius: 0.4rem;
+}
+
+.price__container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+#rating__container {
+  width: max-content;
+  height: max-content;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 0.2rem;
+  padding: 0rem 0.3rem;
+  color: var(--secondary-color);
+  background-color: white;
+  border: 2px solid #d4d4d4;
+  border-radius: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .product__details__container {
+    flex-direction: row;
+    padding: 2rem 3rem;
+  }
+
+  .product__details__container {
+    max-height: 70vh;
+  }
+
+  .image__section {
+    width: 30vw;
+    min-width: 300px;
+    height: 100%;
+  }
+}

@@ -1,0 +1,32 @@
+.wishlist__page__container {
+  padding: 1rem;
+  min-height: 100vh;
+}
+
+.wishlist__page__heading {
+  text-align: center;
+}
+
+.wishlist__products__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1rem auto;
+}
+
+.wishlist__products__container > .product__card__container {
+  width: 20%;
+  min-width: 250px;
+}
+
+.empty__wishlist__img {
+  width: 80%;
+  margin: auto;
+}
+
+@media screen and (min-width: 1024px) {
+  .empty__wishlist__img {
+    width: 50%;
+  }
+}

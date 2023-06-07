@@ -1,0 +1,9 @@
+.error_img__container {
+  display: flex;
+}
+
+.page__not__found__img {
+  max-width: 80%;
+  width: max-content;
+  margin: 2rem auto;
+}

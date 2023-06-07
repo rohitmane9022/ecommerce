@@ -1,0 +1,23 @@
+.home__container * {
+  color: var(--secondary-color);
+}
+
+.content__container {
+  width: 90%;
+  margin: auto;
+}
+  
+.content_container{
+  width: 90%;
+  margin: auto;
+}
+@media screen and (min-width: 768px) {
+ .content_container{
+  width: 90%;
+  margin: auto;
+  flex-direction: column;
+}
+}
+
+@media screen and (min-width: 1024px) {
+}

@@ -1,0 +1,180 @@
+.nav__container p {
+  color: var(--secondary-color);
+  
+}
+
+.nav__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px 0px;
+  box-shadow: 0px 0px 5px gray;
+  
+  color: black;
+  /* font-size: 20px; */
+}
+
+.nav__main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.4rem 0rem 0.4rem 0rem;
+  height: 3.5rem;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+}
+
+.nav__container .item__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.nav__container h2 {
+  color: var(--primary-color);
+  margin: 0rem;
+}
+
+.search__bar__container,
+.search__bar__container * {
+  display: none;
+  border: none;
+}
+
+.search__bar__container_bottom {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  padding: 0rem 0.5rem;
+  border-radius: 1rem;
+  border: 1px solid lightgray;
+  overflow: hidden;
+}
+
+.search__bar_bottom {
+  padding: 0.3rem 0.3rem;
+  border: none;
+  outline: none;
+  width: 100%;
+}
+
+.search__bar__container_bottom:focus-within {
+  border: 1px solid var(--primary-color);
+}
+
+.btn__help {
+  display: none;
+}
+
+.nav__link {
+  text-decoration: none;
+  display: flex;
+  margin: 0rem 0.6rem;
+  font-size: 18px;
+}
+
+.nav__link p {
+  display: none;
+  margin: 0rem 1rem;
+  font-weight: 600;
+}
+
+.nav__link img {
+  margin-right: 0.5rem;
+}
+
+.icon__with__badge {
+  position: relative;
+  /* font-weight: 550; */
+}
+
+.count__badge {
+  position: absolute;
+  width: max-content;
+  height: max-content;
+  font-size: 10px;
+  top: -5px;
+  right: -5px;
+  color: white;
+  background-color: #ef4444;
+  padding: 0rem 0.3rem;
+  border-radius: 50%;
+}
+
+@media screen and (min-width: 480px) {
+  .nav__container {
+    gap: 0rem;
+  }
+
+  .nav__main {
+    gap: 0.3rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .nav__link p {
+    display: inline-block;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .nav__container {
+    padding: 1em 0px;
+  }
+
+  .nav__main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem;
+    height: 3.5rem;
+  }
+
+  .nav__container div button {
+    margin: 0rem;
+  }
+
+  .btn__help {
+    display: block;
+    cursor: pointer;
+    color: white;
+    background-color: var(--primary-color);
+    border: none;
+    padding: 0.2rem 1rem;
+    height: 3.5rem;
+  }
+
+  .search__bar__container {
+    display: flex;
+    align-items: center;
+    padding: 0rem 0.5rem;
+    border-radius: 1rem;
+    border: 1px solid lightgray;
+    flex-grow: 1;
+    overflow: hidden;
+  }
+
+  .search__bar {
+    display: block;
+    padding: 0.3rem 0.3rem;
+    border: none;
+    outline: none;
+    width: 100%;
+  }
+
+  .search__bar__container:focus-within {
+    border: 1px solid var(--primary-color);
+  }
+
+  .search__bar__container * {
+    display: block;
+  }
+
+  .search__bar__container_bottom,
+  .search__bar__container_bottom * {
+    display: none;
+    border: none;
+  }
+}

@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --primary-color: #9DB2BF;
+  --secondary-color: #333333;
+}
+
+.App {
+  position: relative;
+}
