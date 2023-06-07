@@ -6,7 +6,7 @@ import "../UserProfile/UserProfile.css";
 export function UserProfile() {
   const { user, setTitle } = useData();
 
-  useEffect(() => setTitle("Profile"), []);
+ 
 
   return (
     <div className="user__profile__container">

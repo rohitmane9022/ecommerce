@@ -6,9 +6,7 @@ import { useEffect } from "react";
 
 export function Cart() {
   const { cart } = useCart();
-  const { setTitle } = useData();
 
-  useEffect(() => setTitle("Cart"), []);
 
   return (
     <div className="cart__page__container">

@@ -13,10 +13,6 @@ export function Login() {
   } = useAuth();
   const [showPassword, setShowPassword] = useState(false);
 
-  const { setTitle } = useData();
-
-  useEffect(() => setTitle("Login"), []);
-
   const location = useLocation();
 
   const handleLogin = () => {

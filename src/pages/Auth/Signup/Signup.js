@@ -13,9 +13,6 @@ export function Signup() {
   } = useAuth();
   const [showPassword, setShowPassword] = useState(false);
 
-  const { setTitle } = useData();
-
-  useEffect(() => setTitle("Signup"), []);
 
   const location = useLocation();
 

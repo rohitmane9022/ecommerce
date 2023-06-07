@@ -6,9 +6,7 @@ import { useEffect } from "react";
 
 export function Wishlist() {
   const { wishlist } = useWishlist();
-  const { setTitle } = useData();
-
-  useEffect(() => setTitle("Wishlist"), []);
+  
 
   return (
     <div className="wishlist__page__container">

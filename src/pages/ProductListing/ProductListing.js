@@ -9,7 +9,6 @@ export function ProductListing() {
   const { filteredProducts, setTitle } = useData();
   const [showModal, setShowModal] = useState(false);
 
-  useEffect(() => setTitle("Products"), []);
 
   return (
     <div className="products__listing__container">
