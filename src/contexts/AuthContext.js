@@ -18,12 +18,12 @@ let method = "";
 const defaultAddress = {
   id: 1,
   name: "Rohit Mane",
-  houseNo: "Tardeo Tulsiwadi New Approach Road Room no 38",
+  houseNo: "Tardeo Tulsiwadi New Approach Road Room no 10000",
   city: "Mumbai",
   state: "Maharashtra",
   country: "India",
-  zip: "400034",
-  phoneNo: "8356869325",
+  zip: "400008",
+  phoneNo: "1234567890",
 };
 
 export function AuthProvider({ children }) {
